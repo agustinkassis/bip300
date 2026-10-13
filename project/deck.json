@@ -1,0 +1,23 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-10-13T14:05:00Z" },
+  "lists": "css",
+  "title": "Drivechains BIP300 y Gorilla Wallet",
+  "cover": "cover",
+  "order": ["cover", "bip300", "pegin", "anatomy", "pegout", "replay", "official", "community", "wallet", "guardrails"],
+  "sections": {
+    "s1": { "description": "Cómo funciona BIP300: una tesorería por sidechain, peg-in y peg-out", "start": "cover" },
+    "s2": { "description": "Protección contra replay entre eCash y Bitcoin", "start": "replay" },
+    "s3": { "description": "Las drivechains activas en eCash Beta y para qué sirve cada una", "start": "official" },
+    "s4": { "description": "Usar drivechains desde Gorilla Wallet", "start": "wallet" }
+  },
+  "faces": {
+    "bricolage-grotesque": {
+      "family": "Bricolage Grotesque",
+      "href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+    },
+    "geist": { "family": "Geist", "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400..700&display=swap" },
+    "geist-mono": { "family": "Geist Mono", "href": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400..600&display=swap" }
+  },
+  "designSystems": []
+}

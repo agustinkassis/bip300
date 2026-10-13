@@ -1,0 +1,79 @@
+<section id="bip300" data-transition="fade" style="background:radial-gradient(ellipse at 92% 0%, #3d0b0f 0%, #120607 56%);color:#f6f1ea;font-family:'Geist', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="position:absolute;left:1220px;top:0px;width:700px;height:600px;background:radial-gradient(circle at 70% 18%, rgba(204,4,4,0.34) 0%, rgba(204,4,4,0) 70%)"></div>
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;letter-spacing:4px;text-transform:uppercase;color:#f38c09">01 · Cómo funciona BIP300</p>
+<h2 style="font-family:'Bricolage Grotesque', Arial, sans-serif;font-size:72px;font-weight:800;line-height:1.05;letter-spacing:-1px;text-transform:uppercase;color:#f6f1ea">Una tesorería por sidechain</h2>
+</div>
+<div style="display:flex;gap:48px;align-items:stretch">
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="flex:1;display:flex;gap:32px;align-items:center;background:rgba(246,241,234,0.05);border:1px solid rgba(246,241,234,0.12);border-radius:28px;padding:28px 36px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08), 0 24px 48px rgba(0,0,0,0.3)">
+<div style="width:88px;height:88px;border-radius:24px;background:linear-gradient(135deg, #e81b1b 0%, #8f0a10 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(204,4,4,0.45)">
+<x-icon name="Lock" style="color:#f6f1ea;width:44px;height:44px"></x-icon>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<h3 style="font-family:'Bricolage Grotesque', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.1;color:#f6f1ea">La tesorería</h3>
+<p style="font-size:32px;line-height:1.4;color:#b9aea6">Un solo UTXO guarda todo lo depositado</p>
+</div>
+</div>
+<div style="flex:1;display:flex;gap:32px;align-items:center;background:rgba(246,241,234,0.05);border:1px solid rgba(246,241,234,0.12);border-radius:28px;padding:28px 36px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08), 0 24px 48px rgba(0,0,0,0.3)">
+<div style="width:88px;height:88px;border-radius:24px;background:linear-gradient(135deg, #e81b1b 0%, #8f0a10 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(204,4,4,0.45)">
+<x-icon name="Users" style="color:#f6f1ea;width:44px;height:44px"></x-icon>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<h3 style="font-family:'Bricolage Grotesque', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.1;color:#f6f1ea">Los mineros votan</h3>
+<p style="font-size:32px;line-height:1.4;color:#b9aea6">Nada sale sin su aprobación</p>
+</div>
+</div>
+<div style="flex:1;display:flex;gap:32px;align-items:center;background:rgba(246,241,234,0.05);border:1px solid rgba(246,241,234,0.12);border-radius:28px;padding:28px 36px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08), 0 24px 48px rgba(0,0,0,0.3)">
+<div style="width:88px;height:88px;border-radius:24px;background:linear-gradient(135deg, #e81b1b 0%, #8f0a10 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(204,4,4,0.45)">
+<x-icon name="Lightning" style="color:#f6f1ea;width:44px;height:44px"></x-icon>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<h3 style="font-family:'Bricolage Grotesque', Arial, sans-serif;font-size:44px;font-weight:800;line-height:1.1;color:#f6f1ea">Minado fusionado</h3>
+<p style="font-size:32px;line-height:1.4;color:#b9aea6">BIP301: los mineros también minan las sidechains</p>
+</div>
+</div>
+</div>
+<div style="width:560px;display:flex;flex-direction:column;gap:16px;background:rgba(246,241,234,0.05);border:1px solid rgba(246,241,234,0.12);border-radius:28px;padding:36px 40px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08), 0 30px 60px rgba(0,0,0,0.35)">
+<h3 style="font-family:'Bricolage Grotesque', Arial, sans-serif;font-size:32px;font-weight:700;line-height:1.2;color:#f6f1ea">8 mensajes</h3>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M1</p>
+<p style="font-size:24px;color:#d8cfc8">Proponer un slot</p>
+</div>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M2</p>
+<p style="font-size:24px;color:#d8cfc8">Votar el slot</p>
+</div>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M3</p>
+<p style="font-size:24px;color:#d8cfc8">Proponer un retiro</p>
+</div>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M4</p>
+<p style="font-size:24px;color:#d8cfc8">Votar el retiro</p>
+</div>
+<hr style="border-top:1px solid rgba(246,241,234,0.14)">
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:#cc0404;padding:2px 14px;border-radius:999px;box-shadow:0 8px 20px rgba(204,4,4,0.45)">M5</p>
+<p style="font-size:24px;font-weight:600;color:#f6f1ea">Depósito · peg-in</p>
+</div>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#120607;background:#f38c09;padding:2px 14px;border-radius:999px;box-shadow:0 8px 20px rgba(243,140,9,0.35)">M6</p>
+<p style="font-size:24px;font-weight:600;color:#f6f1ea">Retiro · peg-out</p>
+</div>
+<hr style="border-top:1px solid rgba(246,241,234,0.14)">
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M7</p>
+<p style="font-size:24px;color:#d8cfc8">BMM accept</p>
+</div>
+<div style="display:flex;align-items:center;gap:18px">
+<p style="font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;font-weight:600;color:#f6f1ea;background:rgba(246,241,234,0.1);padding:2px 14px;border-radius:999px">M8</p>
+<p style="font-size:24px;color:#d8cfc8">BMM request</p>
+</div>
+</div>
+</div>
+<img id="gw-logo" src="/_blob/6f598240dd90228cb9d410d9bb2df399" alt="Logo de Gorilla Wallet" style="position:absolute;left:128px;bottom:60px;width:40px;height:40px;border-radius:10px">
+<p style="position:absolute;left:184px;bottom:64px;width:1000px;font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;text-transform:uppercase;color:#8f8580">Gorilla Wallet · Drivechains en eCash</p>
+<p style="position:absolute;left:1592px;bottom:64px;width:200px;text-align:right;font-family:'Geist Mono', 'Courier New', monospace;font-size:24px;color:#8f8580">02 / 10</p>
+<aside>BIP300 le da a cada sidechain un slot, del 0 al 255, y un único UTXO en la cadena principal que guarda todo lo depositado: la tesorería, también llamada CTIP. Su script es OP_DRIVECHAIN, el número de slot y OP_TRUE. En eCash Beta, OP_DRIVECHAIN es el byte 0xb7 (OP_NOP8), no el OP_NOP5 de BIP300. Los depósitos suman a la tesorería. Las monedas solo salen con un paquete de retiros que los mineros aprobaron en 13.150 de los últimos 26.300 bloques, unos tres meses de votos. Los slots nuevos también se activan por voto. BIP301, el minado fusionado ciego, permite que los mineros de eCash minen las sidechains sin correr su software: el productor del bloque de la sidechain le paga al minero para que ponga el hash de su bloque en la coinbase. El protocolo son ocho mensajes: M1 a M4 son gobierno (slots y paquetes de retiro), M5 y M6 mueven plata (depósito y retiro), M7 y M8 son el minado fusionado.</aside>
+</section>

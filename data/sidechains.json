@@ -1,0 +1,115 @@
+{
+  "fetchedAt": "2026-10-13T14:23:04.157Z",
+  "enforcer": "https://enforcer.beta.ecash.ninja",
+  "totalSats": 171540343742,
+  "sidechains": [
+    {
+      "slot": 2,
+      "title": "BitNames",
+      "description": "A variant of Namecoin/BitDNS that aims to replace ICANN",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": {
+        "txid": "32c64c24a8020bab2a6819d8ceedda5f0623ac42c661e00001e7c75b40a45890",
+        "vout": 0,
+        "sats": 749018653
+      }
+    },
+    {
+      "slot": 4,
+      "title": "BitAssets",
+      "description": "A sidechain for digital assets",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": {
+        "txid": "1f588a76f16ac87cb74790e837ebb59e0d5e0a0e0375b906679ace3d58b20b32",
+        "vout": 0,
+        "sats": 133074500
+      }
+    },
+    {
+      "slot": 8,
+      "title": "Solana",
+      "description": "A Solana sidechain",
+      "proposalHeight": 969851,
+      "activationHeight": 970860,
+      "treasury": {
+        "txid": "4cbd9c833becd256fe3212f30e533981915e0e4283a95bb1a6b41f9e85e79b71",
+        "vout": 0,
+        "sats": 10106750000
+      }
+    },
+    {
+      "slot": 9,
+      "title": "Thunder",
+      "description": "A sidechain with a large & growing blocksize, plus fraud proofs",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": {
+        "txid": "4dc77e74b3719a132e0a3bf4220fbf39c944b35b178af2f1a8da2fb78da847e1",
+        "vout": 0,
+        "sats": 101206085589
+      }
+    },
+    {
+      "slot": 13,
+      "title": "Truthcoin",
+      "description": "A sidechain for decentralized prediction markets and oracle data",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": {
+        "txid": "611cc180d320837bb4935ca6f1bb1f8cb23ede34cf40cf5fb389849b513efa81",
+        "vout": 0,
+        "sats": 55745300000
+      }
+    },
+    {
+      "slot": 24,
+      "title": "Elements",
+      "description": "Elements Drivechain v11; parameterized controller profile; replay v4; annex v2; one M6 per parent block; withdrawal accumulator v1; BIP301 checkpoint v1; Simplicity active; slot 24",
+      "proposalHeight": 969706,
+      "activationHeight": 970715,
+      "treasury": null
+    },
+    {
+      "slot": 98,
+      "title": "zSide",
+      "description": "Sidechain with private transactions",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": null
+    },
+    {
+      "slot": 99,
+      "title": "Photon",
+      "description": "Sidechain using post-quantum cryptography",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": null
+    },
+    {
+      "slot": 130,
+      "title": "FreeBank",
+      "description": "Credit-creation drivechain (Scottish free-banking lineage)",
+      "proposalHeight": 968020,
+      "activationHeight": 969029,
+      "treasury": {
+        "txid": "001db7d5d99b827b0ac26b0d0afdb4f92295c7689e66ae54d398edd9e3b23a0a",
+        "vout": 0,
+        "sats": 3600000000
+      }
+    },
+    {
+      "slot": 255,
+      "title": "Coinshift",
+      "description": "Sidechain with a P2P, trustless L2-L1 swap system",
+      "proposalHeight": 967989,
+      "activationHeight": 968998,
+      "treasury": {
+        "txid": "427f476733bfa24268e43385da1b5e258115567c103823d1bcd6423094e0a93d",
+        "vout": 0,
+        "sats": 115000
+      }
+    }
+  ]
+}
